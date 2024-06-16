@@ -1,0 +1,12 @@
+title_name = "Minecraft"
+title_id = "584111F7" #
+hash = "BDE547F889706D91" # default.xex
+#media_id = "7CD33B56"
+
+[[patch]]
+    name = "Disables TitleStorage"
+    author = "wildmaster84"
+    is_enabled = false	
+    [[patch.be32]]
+        address = 0x82a22328
+        value =   0x409A0018
