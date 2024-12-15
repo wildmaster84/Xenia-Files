@@ -1,0 +1,22 @@
+1) Use xenia to extract the default.xex, default.xexp and XLast file
+
+2) Copy the files inside the script folder
+
+3) Run extract_images_from_xex.py and then xenia_stats.py
+
+4) Go into the folder it made and delete any png image that is not a achievement icon
+
+5) Run fix_images.py
+
+6) Push changes to repo and repeat.
+
+Repo: https://github.com/wildmaster84/restored-media
+
+Requirements:
+	Python 3.8+
+	xextools
+	
+Notes:
+	fix_images.py just renames the files in order to work with the achievements.json xenia_stats.py made.
+	If you can extract the default files and extract the XLast then you only need the 3 script files
+	which would be the faster then using xenia for an extractor.
